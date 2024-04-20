@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-200">
+    <div class="shadow-[0_0_10px_0_rgba(0,0,0,0.1)] mx-64 px-8 py-4 my-6 rounded-xl bg-white">
+        <header class="font-semibold text-2xl flex justify-center pt-4 pb-7">
+            <p>Regular Expressions :/</p>
+        </header>
+        <hr>
+        <div class="py-8">
+            <div class="flex justify-around mb-3">
+                <div>
+                    <p>Email</p>
+                    <div class="py-2">
+                        <input id="email" class="border" type="text"></input>
+                    </div>
+                    <p id="emailValid" class="hidden text-red-500 w-44">Not a valid email <br>Ex:rizqyibra@gmail.com</p>
+                </div>
+                <div>
+                    <p>Github Username</p>
+                    <div class="py-2">
+                        <input id="username" class="border" type="text"></input>
+                    </div>
+                    <p id="usernameValid" class="hidden text-red-500 w-44">Username can only contain alphanumeric characters and dash <br>Max : 32 characters </p>
+                </div>
+            </div>
+            <div class="flex justify-around mb-3">
+                <div>
+                    <p>Phone Number</p>
+                    <div class="py-2">
+                        <input id="number" class="border" type="text"></input>
+                    </div>
+                    <p id="numberValid" class="hidden text-red-500 w-44">Not a valid Indonesian phone number <br>Ex:+628123456789</p>
+                </div>
+                <div>
+                    <p>GitHub Page URL</p>
+                    <div class="py-2">
+                        <input id="link" class="border" type="text"></input>
+                    </div>
+                    <p id="linkValid" class="hidden text-red-500 w-44">Not a valid GitHub page <br>Ex:https://cstmrc3130.github.io/cstmrc3130/</p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div>
+                    <p>Vehicle Plate Number</p>
+                    <div class="py-2">
+                        <input id="plat" class="border" type="text"></input>
+                    </div>
+                    <p id="platValid" class="hidden text-red-500 w-44">Not a valid Indonesian vehicle plate number <br>Ex: BK 1234 ABC  </p>
+                </div>  
+            </div>
+        </div>
+        
+        <footer>
+            <p>2024 April,</p>
+            <p>Created with smile by : </p>
+            <p>Ibra Rizqy Siregar :D</p>
+            <ion-icon name="happy-outline"></ion-icon>
+
+        </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
