@@ -20,17 +20,6 @@
 
 ---
 
-### 🔥 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ibra-rizqy&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ibra-rizqy&theme=tokyonight" alt="GitHub Streak" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibra-rizqy&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
----
-
 ### 💬 About Me
 - 🌱 I’m currently learning **machine learning**, and **data analytics**.
 - ⚡ Fun fact: I like solving real-world problems with clean code and smart automation.
