@@ -1,7 +1,7 @@
-<h1 align="center">Hi there 👋, I'm Ibra Rizqy</h1>
-<p align="center">A passionate developer from Indonesia</p>
+<h1>Hi there 👋, I'm Ibra Rizqy</h1>
+<p>A passionate developer from Indonesia</p>
 
----
+
 
 ### 🧰 Languages and Tools
 <p>
