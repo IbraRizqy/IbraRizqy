@@ -1,7 +1,7 @@
 <h1>Hi there 👋, I'm Ibra Rizqy</h1>
 <p>A student from Universitas Sumatera Utara</p>
 
-
+### Portfolio : https://ibrarizqy.github.io/IbraRizqy/
 
 ### 🧰 Languages and Tools
 <p>
