@@ -19,8 +19,7 @@ function Hero() {
               development, to data science.
             </p>
 
-            {/* Insert badges here */}
-            <div className="flex-wrap gap-2 ">
+            <div className="flex flex-wrap gap-2 ">
               <img src="https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript" />
               <img src="https://img.shields.io/badge/-Python-333?style=flat&logo=python" />
               <img src="https://img.shields.io/badge/-C++-333?style=flat&logo=c%2B%2B" />
