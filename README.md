@@ -1,34 +1,69 @@
-<h1>Hi there 👋, I'm Ibra Rizqy</h1>
-<p>A student from Universitas Sumatera Utara</p>
+# React + TypeScript + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-### 🧰 Languages and Tools
-<p>
-  <img src="https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript" />
-  <img src="https://img.shields.io/badge/-Python-333?style=flat&logo=python" />
-  <img src="https://img.shields.io/badge/-C++-333?style=flat&logo=c%2B%2B" />
-  <img src="https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5" />
-  <img src="https://img.shields.io/badge/-CSS3-333?style=flat&logo=css3" />
-  <img src="https://img.shields.io/badge/-VS%20Code-333?style=flat&logo=visual-studio-code" />
-  <img src="https://img.shields.io/badge/-React-333?style=flat&logo=react" />
-  <img src="https://img.shields.io/badge/-Laravel-333?style=flat&logo=laravel" />
-  <img src="https://img.shields.io/badge/-PHP-333?style=flat&logo=php" />
-  <img src="https://img.shields.io/badge/-Tailwind_CSS-333?style=flat&logo=tailwind-css" />
-  <img src="https://img.shields.io/badge/-Bootstrap-333?style=flat&logo=bootstrap" />
-    <img src="https://img.shields.io/badge/-Roboflow-333?style=flat&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMiIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3QgeD0iNSIgeT0iNSIgd2lkdGg9IjIyIiBoZWlnaHQ9IjIyIiByeD0iNiIgc3R5bGU9ImZpbGw6IzgwOGZmZiIvPjxwYXRoIGQ9Ik0yMyAxMC41aC0xLjN2Mi4zYzAtLjMuMi41LjUuNWgxLjNjLjMgMCAuNS0uMi41LS41di0yLjNjMC0uMy0uMi0uNS0uNS0uNXptLTIuNSAxLjRjLS4xLjEtLjIuMi0uMi4zdjEuN2MwIC4xLjEuMi4yLjJoMS43Yy4xIDAgLjItLjEuMi0uMnYtMS43YzAtLjEtLjEtLjItLjItLjJoLTEuN3ptMS41IDEuM2MtLjEuMS0uMi4yLS4yLjN2MS43YzAgLjEuMS4yLjIuMmgxLjdjLjEgMCAuMi0uMS4yLS4ydi0xLjdjMC0uMS0uMS0uMi0uMi0uMmgtMS43eiIvPjwvc3ZnPg==" />
-</p>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-### 💬 About Me
-- 🌱 I’m currently learning **machine learning**, and **data analytics**.
-- ⚡ Fun fact: I really enjoy working with data — cleaning it, analyzing it, and finding insights.
-- 📫 How to reach me: [@ibra_rizqy](mailto:rizqyibra@example.com) | [LinkedIn](https://www.linkedin.com/in/ibra-rizqy-7aa2021a0/)
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
----
+```js
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-### 📌 Featured Projects
-- 🔗 [Flog](https://github.com/M-Thoriq/FLog)
-- 🔗 [SiPanen](https://github.com/RafiDevari/googlesolution)
-- 🔗 [De-Palm](https://github.com/RafiDevari/De-Palm)
+      // Remove tseslint.configs.recommended and replace with this
+      ...tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      ...tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      ...tseslint.configs.stylisticTypeChecked,
+
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
+
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
+
+export default tseslint.config([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
