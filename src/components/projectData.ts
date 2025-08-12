@@ -61,7 +61,7 @@ export const projectData: ProjectData[] = [
   {
     name: "Laptop Sales Analysis",
     description:
-      "A machine learning model to predict laptop sales using historical sales data.",
+      "A sales analysis project to understand laptop sales trends.",
       link: "https://github.com/IbraRizqy/laptop-sales-analysis",
     category: "Machine Learning",
   },
