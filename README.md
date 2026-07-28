@@ -22,9 +22,9 @@
 ---
 
 ### 💬 About Me
-- 🌱 I’m currently learning **machine learning**, and **data analytics**.
-- ⚡ Fun fact: I really enjoy working with data — cleaning it, analyzing it, and finding insights.
-- 📫 How to reach me: [@ibra_rizqy](mailto:rizqyibra@example.com) | [LinkedIn](https://www.linkedin.com/in/ibra-rizqy-7aa2021a0/)
+- I’m currently learning unity.
+- I really enjoy working with data and AI.
+- How to reach me: [@ibra_rizqy](mailto:rizqyibra@example.com) | [LinkedIn](https://www.linkedin.com/in/ibra-rizqy-7aa2021a0/)
 
 ---
 
