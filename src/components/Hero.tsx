@@ -12,11 +12,12 @@ function Hero() {
               Hi! I'm <span className="text-teal-400">Ibra Rizqy</span>
             </h1>
             <p className="text-md sm:text-xl text-gray-200 mb-2">
-              An undergraduate student from Universitas Sumatera Utara
+              Information Technology fresh graduate from Universitas Sumatera
+              Utara
             </p>
             <p className="text-md sm:text-lg text-gray-400 max-w-xl mb-4 hidden sm:flex">
-              Explore my projects and skills from web development, mobile
-              development, to data science.
+              Software development, data processing, and machine learning across
+              web, mobile, and practical AI projects.
             </p>
 
             <div className="flex flex-wrap gap-2 ">
@@ -32,6 +33,15 @@ function Hero() {
               <img src="https://img.shields.io/badge/-Tailwind_CSS-333?style=flat&logo=tailwind-css" />
               <img src="https://img.shields.io/badge/-Bootstrap-333?style=flat&logo=bootstrap" />
               <img src="https://img.shields.io/badge/-TypeScript-333?style=flat&logo=typescript" />
+              <img src="https://img.shields.io/badge/-Angular-333?style=flat&logo=angular" />
+              <img src="https://img.shields.io/badge/-Next.js-333?style=flat&logo=next.js" />
+              <img src="https://img.shields.io/badge/-Vue.js-333?style=flat&logo=vue.js" />
+              <img src="https://img.shields.io/badge/-Python-333?style=flat&logo=python" />
+              <img src="https://img.shields.io/badge/-C%23-333?style=flat&logo=csharp" />
+              <img src="https://img.shields.io/badge/-SQL-333?style=flat&logo=mysql" />
+              <img src="https://img.shields.io/badge/-Flask-333?style=flat&logo=flask" />
+              <img src="https://img.shields.io/badge/-Firebase-333?style=flat&logo=firebase" />
+              <img src="https://img.shields.io/badge/-Unity-333?style=flat&logo=unity" />
               <img src="https://img.shields.io/badge/-Roboflow-333?style=flat&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMiIgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3QgeD0iNSIgeT0iNSIgd2lkdGg9IjIyIiBoZWlnaHQ9IjIyIiByeD0iNiIgc3R5bGU9ImZpbGw6IzgwOGZmZiIvPjxwYXRoIGQ9Ik0yMyAxMC41aC0xLjN2Mi4zYzAtLjMuMi41LjUuNWgxLjNjLjMgMCAuNS0uMi41LS41di0yLjNjMC0uMy0uMi0uNS0uNS0uNXptLTIuNSAxLjRjLS4xLjEtLjIuMi0uMi4zdjEuN2MwIC4xLjEuMi4yLjJoMS43Yy4xIDAgLjItLjEuMi0uMnYtMS43YzAtLjEtLjEtLjItLjItLjJoLTEuN3ptMS41IDEuM2MtLjEuMS0uMi4yLS4yLjN2MS43YzAgLjEuMS4yLjIuMmgxLjdjLjEgMCAuMi0uMS4yLS4ydi0xLjdjMC0uMS0uMS0uMi0uMi0uMmgtMS43eiIvPjwvc3ZnPg==" />
             </div>
           </section>

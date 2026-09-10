@@ -27,12 +27,19 @@ function Contact() {
               />
               <strong>Email:</strong>{" "}
               <a
-                href="mailto:rizqyibra@gmail.com
-                "
+                href="mailto:rizqyibra@gmail.com"
                 className="text-teal-400 hover:underline"
               >
                 rizqyibra@gmail.com
               </a>
+            </p>
+            <p className="flex items-center gap-2">
+              <strong>Phone:</strong>
+              <span className="text-gray-300">+62 823-7059-7095</span>
+            </p>
+            <p className="flex items-center gap-2">
+              <strong>Location:</strong>
+              <span className="text-gray-300">Medan, Indonesia</span>
             </p>
             <p className="flex items-center gap-2">
               <img
